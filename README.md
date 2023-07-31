@@ -1,1 +1,1 @@
-# project-periscope.github.io
+# Project page for Periscope
