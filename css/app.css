@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lato', serif;
+}
+
+.img-padded {
+  margin-block-end: 20px;
+}
+
+.div-padded {
+  margin-block-end: 20px;
+}
+
+#banner {
+  width: 100%;
+  height: 350px;
+  background-color: gainsboro;
+}
+
+.banner-img {
+  width: 100%;
+  height: 350px;
+}
+
+header {
+  margin-top: 40px;
+}
+
+#authors-list {
+  margin-top: 24px;
+  text-align: center;
+}
+
+#authors-list li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+#links-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 36px;
+  text-align: center;
+}
+
+#links-group a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  text-decoration: none;
+}
+
+.link-icon {
+  height: 46px;
+  width: 46px;
+  margin-bottom: 4px;
+}
+
+section {
+  margin-block-end: 36px;
+}
+
+.section-heading {
+  font-weight: 300;
+}
